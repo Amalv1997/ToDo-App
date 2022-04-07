@@ -2,6 +2,10 @@
     text-align: end;
 }
 
+.bodydiv{
+    margin-top: 75px;
+}
+@media screen and (min-width: 720px){
 .container22{
     margin-top: 40px;
     height: auto;
@@ -11,6 +15,14 @@
     background-color: whitesmoke;
     box-shadow: 10px 10px 10px 10px;
 
+}}
+.container22{
+    margin-top: 40px;
+    height: auto;
+    border: 2px solid rgba(255, 0, 34, 0.488);
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 #posts{
