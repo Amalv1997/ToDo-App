@@ -1,28 +1,24 @@
-.refresh{
-    text-align: end;
-}
-
-.bodydiv{
-    margin-top: 75px;
-}
 
 .mainbox{
     margin-top: 20vh;
     height: auto;
     width: 700px;
     padding-top: 15px;
+    border: 5px solid goldenrod;
+    border-radius: 20px;
     background-color: whitesmoke;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 @media only screen and (max-width: 500px){
     .mainbox{
         margin-top: 20vh;
         height: auto;
-        width: 455px;
+        width: 452px;
         padding-top: 15px;
+        border: 5px solid goldenrod;
+        border-radius: 20px;
         background-color: whitesmoke;
+        box-shadow: 10px 10px 10px 10px;
     }
 }
-
-
-
