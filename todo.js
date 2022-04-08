@@ -17,10 +17,10 @@
        var output = "";
        for (var i = 0; i < response.length; i++) {
          if (response[i].completed == true) {
-             output += `<li class="list-group-item"><input type="checkbox" checked disabled> <span class="text-decoration-line-through text-danger ms-5">${response[i].title}<span></li>`;
+             output += `<li class="list-group-item"><input type="checkbox" checked disabled> <span class="text-decoration-line-through text-danger ms-3">${response[i].title}<span></li>`;
              
          } else {
-             output += `<li class="list-group-item"><input class="checkbox" type="checkbox" onchange="return taskCapture()"><span class=" ms-5">${response[i].title}<span></li>`;
+             output += `<li class="list-group-item"><input class="checkbox" type="checkbox" onchange="return taskCapture()"><span class=" ms-3">${response[i].title}<span></li>`;
          }
        }
        document.getElementById("list").innerHTML = output;
